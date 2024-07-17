@@ -1,0 +1,609 @@
+{
+    "circle_of_fifths": {
+      "major_keys": [
+        {
+          "name": "C",
+          "sharps": 0,
+          "flats": 0,
+          "notes": ["C", "D", "E", "F", "G", "A", "B"],
+          "relative_minor": "A",
+          "key_signature": "",
+          "common_chord_progressions": ["I-IV-V-I", "ii-V-I"],
+          "modes": {
+            "ionian": ["C", "D", "E", "F", "G", "A", "B"],
+            "dorian": ["D", "E", "F", "G", "A", "B", "C"],
+            "phrygian": ["E", "F", "G", "A", "B", "C", "D"],
+            "lydian": ["F", "G", "A", "B", "C", "D", "E"],
+            "mixolydian": ["G", "A", "B", "C", "D", "E", "F"],
+            "aeolian": ["A", "B", "C", "D", "E", "F", "G"],
+            "locrian": ["B", "C", "D", "E", "F", "G", "A"]
+          },
+          "audio_sample": "link_to_audio_sample_C_major",
+          "tonic": "C",
+          "dominant": "G",
+          "subdominant": "F"
+        },
+        {
+          "name": "G",
+          "sharps": 1,
+          "flats": 0,
+          "notes": ["G", "A", "B", "C", "D", "E", "F#"],
+          "relative_minor": "E",
+          "key_signature": "F#",
+          "common_chord_progressions": ["I-IV-V-I", "ii-V-I"],
+          "modes": {
+            "ionian": ["G", "A", "B", "C", "D", "E", "F#"],
+            "dorian": ["A", "B", "C", "D", "E", "F#", "G"],
+            "phrygian": ["B", "C", "D", "E", "F#", "G", "A"],
+            "lydian": ["C", "D", "E", "F#", "G", "A", "B"],
+            "mixolydian": ["D", "E", "F#", "G", "A", "B", "C"],
+            "aeolian": ["E", "F#", "G", "A", "B", "C", "D"],
+            "locrian": ["F#", "G", "A", "B", "C", "D", "E"]
+          },
+          "audio_sample": "link_to_audio_sample_G_major",
+          "tonic": "G",
+          "dominant": "D",
+          "subdominant": "C"
+        },
+        {
+          "name": "D",
+          "sharps": 2,
+          "flats": 0,
+          "notes": ["D", "E", "F#", "G", "A", "B", "C#"],
+          "relative_minor": "B",
+          "key_signature": "F#, C#",
+          "common_chord_progressions": ["I-IV-V-I", "ii-V-I"],
+          "modes": {
+            "ionian": ["D", "E", "F#", "G", "A", "B", "C#"],
+            "dorian": ["E", "F#", "G", "A", "B", "C#", "D"],
+            "phrygian": ["F#", "G", "A", "B", "C#", "D", "E"],
+            "lydian": ["G", "A", "B", "C#", "D", "E", "F#"],
+            "mixolydian": ["A", "B", "C#", "D", "E", "F#", "G"],
+            "aeolian": ["B", "C#", "D", "E", "F#", "G", "A"],
+            "locrian": ["C#", "D", "E", "F#", "G", "A", "B"]
+          },
+          "audio_sample": "link_to_audio_sample_D_major",
+          "tonic": "D",
+          "dominant": "A",
+          "subdominant": "G"
+        },
+        {
+          "name": "A",
+          "sharps": 3,
+          "flats": 0,
+          "notes": ["A", "B", "C#", "D", "E", "F#", "G#"],
+          "relative_minor": "F#",
+          "key_signature": "F#, C#, G#",
+          "common_chord_progressions": ["I-IV-V-I", "ii-V-I"],
+          "modes": {
+            "ionian": ["A", "B", "C#", "D", "E", "F#", "G#"],
+            "dorian": ["B", "C#", "D", "E", "F#", "G#", "A"],
+            "phrygian": ["C#", "D", "E", "F#", "G#", "A", "B"],
+            "lydian": ["D", "E", "F#", "G#", "A", "B", "C#"],
+            "mixolydian": ["E", "F#", "G#", "A", "B", "C#", "D"],
+            "aeolian": ["F#", "G#", "A", "B", "C#", "D", "E"],
+            "locrian": ["G#", "A", "B", "C#", "D", "E", "F#"]
+          },
+          "audio_sample": "link_to_audio_sample_A_major",
+          "tonic": "A",
+          "dominant": "E",
+          "subdominant": "D"
+        },
+        {
+          "name": "E",
+          "sharps": 4,
+          "flats": 0,
+          "notes": ["E", "F#", "G#", "A", "B", "C#", "D#"],
+          "relative_minor": "C#",
+          "key_signature": "F#, C#, G#, D#",
+          "common_chord_progressions": ["I-IV-V-I", "ii-V-I"],
+          "modes": {
+            "ionian": ["E", "F#", "G#", "A", "B", "C#", "D#"],
+            "dorian": ["F#", "G#", "A", "B", "C#", "D#", "E"],
+            "phrygian": ["G#", "A", "B", "C#", "D#", "E", "F#"],
+            "lydian": ["A", "B", "C#", "D#", "E", "F#", "G#"],
+            "mixolydian": ["B", "C#", "D#", "E", "F#", "G#", "A"],
+            "aeolian": ["C#", "D#", "E", "F#", "G#", "A", "B"],
+            "locrian": ["D#", "E", "F#", "G#", "A", "B", "C#"]
+          },
+          "audio_sample": "link_to_audio_sample_E_major",
+          "tonic": "E",
+          "dominant": "B",
+          "subdominant": "A"
+        },
+        {
+          "name": "B",
+          "sharps": 5,
+          "flats": 0,
+          "notes": ["B", "C#", "D#", "E", "F#", "G#", "A#"],
+          "relative_minor": "G#",
+          "key_signature": "F#, C#, G#, D#, A#",
+          "common_chord_progressions": ["I-IV-V-I", "ii-V-I"],
+          "modes": {
+            "ionian": ["B", "C#", "D#", "E", "F#", "G#", "A#"],
+            "dorian": ["C#", "D#", "E", "F#", "G#", "A#", "B"],
+            "phrygian": ["D#", "E", "F#", "G#", "A#", "B", "C#"],
+            "lydian": ["E", "F#", "G#", "A#", "B", "C#", "D#"],
+            "mixolydian": ["F#", "G#", "A#", "B", "C#", "D#", "E"],
+            "aeolian": ["G#", "A#", "B", "C#", "D#", "E", "F#"],
+            "locrian": ["A#", "B", "C#", "D#", "E", "F#", "G#"]
+          },
+          "audio_sample": "link_to_audio_sample_B_major",
+          "tonic": "B",
+          "dominant": "F#",
+          "subdominant": "E"
+        },
+        {
+          "name": "F#",
+          "sharps": 6,
+          "flats": 0,
+          "notes": ["F#", "G#", "A#", "B", "C#", "D#", "E#"],
+          "relative_minor": "D#",
+          "key_signature": "F#, C#, G#, D#, A#, E#",
+          "common_chord_progressions": ["I-IV-V-I", "ii-V-I"],
+          "modes": {
+            "ionian": ["F#", "G#", "A#", "B", "C#", "D#", "E#"],
+            "dorian": ["G#", "A#", "B", "C#", "D#", "E#", "F#"],
+            "phrygian": ["A#", "B", "C#", "D#", "E#", "F#", "G#"],
+            "lydian": ["B", "C#", "D#", "E#", "F#", "G#", "A#"],
+            "mixolydian": ["C#", "D#", "E#", "F#", "G#", "A#", "B"],
+            "aeolian": ["D#", "E#", "F#", "G#", "A#", "B", "C#"],
+            "locrian": ["E#", "F#", "G#", "A#", "B", "C#", "D#"]
+          },
+          "audio_sample": "link_to_audio_sample_F#_major",
+          "tonic": "F#",
+          "dominant": "C#",
+          "subdominant": "B"
+        },
+        {
+          "name": "C#",
+          "sharps": 7,
+          "flats": 0,
+          "notes": ["C#", "D#", "E#", "F#", "G#", "A#", "B#"],
+          "relative_minor": "A#",
+          "key_signature": "F#, C#, G#, D#, A#, E#, B#",
+          "common_chord_progressions": ["I-IV-V-I", "ii-V-I"],
+          "modes": {
+            "ionian": ["C#", "D#", "E#", "F#", "G#", "A#", "B#"],
+            "dorian": ["D#", "E#", "F#", "G#", "A#", "B#", "C#"],
+            "phrygian": ["E#", "F#", "G#", "A#", "B#", "C#", "D#"],
+            "lydian": ["F#", "G#", "A#", "B#", "C#", "D#", "E#"],
+            "mixolydian": ["G#", "A#", "B#", "C#", "D#", "E#", "F#"],
+            "aeolian": ["A#", "B#", "C#", "D#", "E#", "F#", "G#"],
+            "locrian": ["B#", "C#", "D#", "E#", "F#", "G#", "A#"]
+          },
+          "audio_sample": "link_to_audio_sample_C#_major",
+          "tonic": "C#",
+          "dominant": "G#",
+          "subdominant": "F#"
+        },
+        {
+          "name": "F",
+          "sharps": 0,
+          "flats": 1,
+          "notes": ["F", "G", "A", "Bb", "C", "D", "E"],
+          "relative_minor": "D",
+          "key_signature": "Bb",
+          "common_chord_progressions": ["I-IV-V-I", "ii-V-I"],
+          "modes": {
+            "ionian": ["F", "G", "A", "Bb", "C", "D", "E"],
+            "dorian": ["G", "A", "Bb", "C", "D", "E", "F"],
+            "phrygian": ["A", "Bb", "C", "D", "E", "F", "G"],
+            "lydian": ["Bb", "C", "D", "E", "F", "G", "A"],
+            "mixolydian": ["C", "D", "E", "F", "G", "A", "Bb"],
+            "aeolian": ["D", "E", "F", "G", "A", "Bb", "C"],
+            "locrian": ["E", "F", "G", "A", "Bb", "C", "D"]
+          },
+          "audio_sample": "link_to_audio_sample_F_major",
+          "tonic": "F",
+          "dominant": "C",
+          "subdominant": "Bb"
+        },
+        {
+          "name": "Bb",
+          "sharps": 0,
+          "flats": 2,
+          "notes": ["Bb", "C", "D", "Eb", "F", "G", "A"],
+          "relative_minor": "G",
+          "key_signature": "Bb, Eb",
+          "common_chord_progressions": ["I-IV-V-I", "ii-V-I"],
+          "modes": {
+            "ionian": ["Bb", "C", "D", "Eb", "F", "G", "A"],
+            "dorian": ["C", "D", "Eb", "F", "G", "A", "Bb"],
+            "phrygian": ["D", "Eb", "F", "G", "A", "Bb", "C"],
+            "lydian": ["Eb", "F", "G", "A", "Bb", "C", "D"],
+            "mixolydian": ["F", "G", "A", "Bb", "C", "D", "Eb"],
+            "aeolian": ["G", "A", "Bb", "C", "D", "Eb", "F"],
+            "locrian": ["A", "Bb", "C", "D", "Eb", "F", "G"]
+          },
+          "audio_sample": "link_to_audio_sample_Bb_major",
+          "tonic": "Bb",
+          "dominant": "F",
+          "subdominant": "Eb"
+        },
+        {
+          "name": "Eb",
+          "sharps": 0,
+          "flats": 3,
+          "notes": ["Eb", "F", "G", "Ab", "Bb", "C", "D"],
+          "relative_minor": "C",
+          "key_signature": "Bb, Eb, Ab",
+          "common_chord_progressions": ["I-IV-V-I", "ii-V-I"],
+          "modes": {
+            "ionian": ["Eb", "F", "G", "Ab", "Bb", "C", "D"],
+            "dorian": ["F", "G", "Ab", "Bb", "C", "D", "Eb"],
+            "phrygian": ["G", "Ab", "Bb", "C", "D", "Eb", "F"],
+            "lydian": ["Ab", "Bb", "C", "D", "Eb", "F", "G"],
+            "mixolydian": ["Bb", "C", "D", "Eb", "F", "G", "Ab"],
+            "aeolian": ["C", "D", "Eb", "F", "G", "Ab", "Bb"],
+            "locrian": ["D", "Eb", "F", "G", "Ab", "Bb", "C"]
+          },
+          "audio_sample": "link_to_audio_sample_Eb_major",
+          "tonic": "Eb",
+          "dominant": "Bb",
+          "subdominant": "Ab"
+        },
+        {
+          "name": "Ab",
+          "sharps": 0,
+          "flats": 4,
+          "notes": ["Ab", "Bb", "C", "Db", "Eb", "F", "G"],
+          "relative_minor": "F",
+          "key_signature": "Bb, Eb, Ab, Db",
+          "common_chord_progressions": ["I-IV-V-I", "ii-V-I"],
+          "modes": {
+            "ionian": ["Ab", "Bb", "C", "Db", "Eb", "F", "G"],
+            "dorian": ["Bb", "C", "Db", "Eb", "F", "G", "Ab"],
+            "phrygian": ["C", "Db", "Eb", "F", "G", "Ab", "Bb"],
+            "lydian": ["Db", "Eb", "F", "G", "Ab", "Bb", "C"],
+            "mixolydian": ["Eb", "F", "G", "Ab", "Bb", "C", "Db"],
+            "aeolian": ["F", "G", "Ab", "Bb", "C", "Db", "Eb"],
+            "locrian": ["G", "Ab", "Bb", "C", "Db", "Eb", "F"]
+          },
+          "audio_sample": "link_to_audio_sample_Ab_major",
+          "tonic": "Ab",
+          "dominant": "Eb",
+          "subdominant": "Db"
+        },
+        {
+          "name": "Db",
+          "sharps": 0,
+          "flats": 5,
+          "notes": ["Db", "Eb", "F", "Gb", "Ab", "Bb", "C"],
+          "relative_minor": "Bb",
+          "key_signature": "Bb, Eb, Ab, Db, Gb",
+          "common_chord_progressions": ["I-IV-V-I", "ii-V-I"],
+          "modes": {
+            "ionian": ["Db", "Eb", "F", "Gb", "Ab", "Bb", "C"],
+            "dorian": ["Eb", "F", "Gb", "Ab", "Bb", "C", "Db"],
+            "phrygian": ["F", "Gb", "Ab", "Bb", "C", "Db", "Eb"],
+            "lydian": ["Gb", "Ab", "Bb", "C", "Db", "Eb", "F"],
+            "mixolydian": ["Ab", "Bb", "C", "Db", "Eb", "F", "Gb"],
+            "aeolian": ["Bb", "C", "Db", "Eb", "F", "Gb", "Ab"],
+            "locrian": ["C", "Db", "Eb", "F", "Gb", "Ab", "Bb"]
+          },
+          "audio_sample": "link_to_audio_sample_Db_major",
+          "tonic": "Db",
+          "dominant": "Ab",
+          "subdominant": "Gb"
+        },
+        {
+          "name": "Gb",
+          "sharps": 0,
+          "flats": 6,
+          "notes": ["Gb", "Ab", "Bb", "Cb", "Db", "Eb", "F"],
+          "relative_minor": "Eb",
+          "key_signature": "Bb, Eb, Ab, Db, Gb, Cb",
+          "common_chord_progressions": ["I-IV-V-I", "ii-V-I"],
+          "modes": {
+            "ionian": ["Gb", "Ab", "Bb", "Cb", "Db", "Eb", "F"],
+            "dorian": ["Ab", "Bb", "Cb", "Db", "Eb", "F", "Gb"],
+            "phrygian": ["Bb", "Cb", "Db", "Eb", "F", "Gb", "Ab"],
+            "lydian": ["Cb", "Db", "Eb", "F", "Gb", "Ab", "Bb"],
+            "mixolydian": ["Db", "Eb", "F", "Gb", "Ab", "Bb", "Cb"],
+            "aeolian": ["Eb", "F", "Gb", "Ab", "Bb", "Cb", "Db"],
+            "locrian": ["F", "Gb", "Ab", "Bb", "Cb", "Db", "Eb"]
+          },
+          "audio_sample": "link_to_audio_sample_Gb_major",
+          "tonic": "Gb",
+          "dominant": "Db",
+          "subdominant": "Cb"
+        },
+        {
+          "name": "Cb",
+          "sharps": 0,
+          "flats": 7,
+          "notes": ["Cb", "Db", "Eb", "Fb", "Gb", "Ab", "Bb"],
+          "relative_minor": "Ab",
+          "key_signature": "Bb, Eb, Ab, Db, Gb, Cb, Fb",
+          "common_chord_progressions": ["I-IV-V-I", "ii-V-I"],
+          "modes": {
+            "ionian": ["Cb", "Db", "Eb", "Fb", "Gb", "Ab", "Bb"],
+            "dorian": ["Db", "Eb", "Fb", "Gb", "Ab", "Bb", "Cb"],
+            "phrygian": ["Eb", "Fb", "Gb", "Ab", "Bb", "Cb", "Db"],
+            "lydian": ["Fb", "Gb", "Ab", "Bb", "Cb", "Db", "Eb"],
+            "mixolydian": ["Gb", "Ab", "Bb", "Cb", "Db", "Eb", "Fb"],
+            "aeolian": ["Ab", "Bb", "Cb", "Db", "Eb", "Fb", "Gb"],
+            "locrian": ["Bb", "Cb", "Db", "Eb", "Fb", "Gb", "Ab"]
+          },
+          "audio_sample": "link_to_audio_sample_Cb_major",
+          "tonic": "Cb",
+          "dominant": "Gb",
+          "subdominant": "Fb"
+        }
+      ],
+      "minor_keys": [
+        {
+          "name": "A",
+          "sharps": 0,
+          "flats": 0,
+          "notes": ["A", "B", "C", "D", "E", "F", "G"],
+          "relative_major": "C",
+          "key_signature": "",
+          "common_chord_progressions": ["i-iv-v-i", "i-VI-III-VII"],
+          "modes": {
+            "natural_minor": ["A", "B", "C", "D", "E", "F", "G"],
+            "harmonic_minor": ["A", "B", "C", "D", "E", "F", "G#"],
+            "melodic_minor": ["A", "B", "C", "D", "E", "F#", "G#"]
+          },
+          "audio_sample": "link_to_audio_sample_A_minor",
+          "tonic": "A",
+          "dominant": "E",
+          "subdominant": "D"
+        },
+        {
+          "name": "E",
+          "sharps": 1,
+          "flats": 0,
+          "notes": ["E", "F#", "G", "A", "B", "C", "D"],
+          "relative_major": "G",
+          "key_signature": "F#",
+          "common_chord_progressions": ["i-iv-v-i", "i-VI-III-VII"],
+          "modes": {
+            "natural_minor": ["E", "F#", "G", "A", "B", "C", "D"],
+            "harmonic_minor": ["E", "F#", "G", "A", "B", "C", "D#"],
+            "melodic_minor": ["E", "F#", "G", "A", "B", "C#", "D#"]
+          },
+          "audio_sample": "link_to_audio_sample_E_minor",
+          "tonic": "E",
+          "dominant": "B",
+          "subdominant": "A"
+        },
+        {
+          "name": "B",
+          "sharps": 2,
+          "flats": 0,
+          "notes": ["B", "C#", "D", "E", "F#", "G", "A"],
+          "relative_major": "D",
+          "key_signature": "F#, C#",
+          "common_chord_progressions": ["i-iv-v-i", "i-VI-III-VII"],
+          "modes": {
+            "natural_minor": ["B", "C#", "D", "E", "F#", "G", "A"],
+            "harmonic_minor": ["B", "C#", "D", "E", "F#", "G", "A#"],
+            "melodic_minor": ["B", "C#", "D", "E", "F#", "G#", "A#"]
+          },
+          "audio_sample": "link_to_audio_sample_B_minor",
+          "tonic": "B",
+          "dominant": "F#",
+          "subdominant": "E"
+        },
+        {
+          "name": "F#",
+          "sharps": 3,
+          "flats": 0,
+          "notes": ["F#", "G#", "A", "B", "C#", "D", "E"],
+          "relative_major": "A",
+          "key_signature": "F#, C#, G#",
+          "common_chord_progressions": ["i-iv-v-i", "i-VI-III-VII"],
+          "modes": {
+            "natural_minor": ["F#", "G#", "A", "B", "C#", "D", "E"],
+            "harmonic_minor": ["F#", "G#", "A", "B", "C#", "D", "E#"],
+            "melodic_minor": ["F#", "G#", "A", "B", "C#", "D#", "E#"]
+          },
+          "audio_sample": "link_to_audio_sample_F#_minor",
+          "tonic": "F#",
+          "dominant": "C#",
+          "subdominant": "B"
+        },
+        {
+          "name": "C#",
+          "sharps": 4,
+          "flats": 0,
+          "notes": ["C#", "D#", "E", "F#", "G#", "A", "B"],
+          "relative_major": "E",
+          "key_signature": "F#, C#, G#, D#",
+          "common_chord_progressions": ["i-iv-v-i", "i-VI-III-VII"],
+          "modes": {
+            "natural_minor": ["C#", "D#", "E", "F#", "G#", "A", "B"],
+            "harmonic_minor": ["C#", "D#", "E", "F#", "G#", "A", "B#"],
+            "melodic_minor": ["C#", "D#", "E", "F#", "G#", "A#", "B#"]
+          },
+          "audio_sample": "link_to_audio_sample_C#_minor",
+          "tonic": "C#",
+          "dominant": "G#",
+          "subdominant": "F#"
+        },
+        {
+          "name": "G#",
+          "sharps": 5,
+          "flats": 0,
+          "notes": ["G#", "A#", "B", "C#", "D#", "E", "F#"],
+          "relative_major": "B",
+          "key_signature": "F#, C#, G#, D#, A#",
+          "common_chord_progressions": ["i-iv-v-i", "i-VI-III-VII"],
+          "modes": {
+            "natural_minor": ["G#", "A#", "B", "C#", "D#", "E", "F#"],
+            "harmonic_minor": ["G#", "A#", "B", "C#", "D#", "E", "Fx"],
+            "melodic_minor": ["G#", "A#", "B", "C#", "D#", "E#", "Fx"]
+          },
+          "audio_sample": "link_to_audio_sample_G#_minor",
+          "tonic": "G#",
+          "dominant": "D#",
+          "subdominant": "C#"
+        },
+        {
+          "name": "D#",
+          "sharps": 6,
+          "flats": 0,
+          "notes": ["D#", "E#", "F#", "G#", "A#", "B", "C#"],
+          "relative_major": "F#",
+          "key_signature": "F#, C#, G#, D#, A#, E#",
+          "common_chord_progressions": ["i-iv-v-i", "i-VI-III-VII"],
+          "modes": {
+            "natural_minor": ["D#", "E#", "F#", "G#", "A#", "B", "C#"],
+            "harmonic_minor": ["D#", "E#", "F#", "G#", "A#", "B", "Cx"],
+            "melodic_minor": ["D#", "E#", "F#", "G#", "A#", "B#", "Cx"]
+          },
+          "audio_sample": "link_to_audio_sample_D#_minor",
+          "tonic": "D#",
+          "dominant": "A#",
+          "subdominant": "G#"
+        },
+        {
+          "name": "A#",
+          "sharps": 7,
+          "flats": 0,
+          "notes": ["A#", "B#", "C#", "D#", "E#", "F#", "G#"],
+          "relative_major": "C#",
+          "key_signature": "F#, C#, G#, D#, A#, E#, B#",
+          "common_chord_progressions": ["i-iv-v-i", "i-VI-III-VII"],
+          "modes": {
+            "natural_minor": ["A#", "B#", "C#", "D#", "E#", "F#", "G#"],
+            "harmonic_minor": ["A#", "B#", "C#", "D#", "E#", "F#", "Gx"],
+            "melodic_minor": ["A#", "B#", "C#", "D#", "E#", "Fx", "Gx"]
+          },
+          "audio_sample": "link_to_audio_sample_A#_minor",
+          "tonic": "A#",
+          "dominant": "E#",
+          "subdominant": "D#"
+        },
+        {
+          "name": "D",
+          "sharps": 0,
+          "flats": 1,
+          "notes": ["D", "E", "F", "G", "A", "Bb", "C"],
+          "relative_major": "F",
+          "key_signature": "Bb",
+          "common_chord_progressions": ["i-iv-v-i", "i-VI-III-VII"],
+          "modes": {
+            "natural_minor": ["D", "E", "F", "G", "A", "Bb", "C"],
+            "harmonic_minor": ["D", "E", "F", "G", "A", "Bb", "C#"],
+            "melodic_minor": ["D", "E", "F", "G", "A", "B", "C#"]
+          },
+          "audio_sample": "link_to_audio_sample_D_minor",
+          "tonic": "D",
+          "dominant": "A",
+          "subdominant": "G"
+        },
+        {
+          "name": "G",
+          "sharps": 0,
+          "flats": 2,
+          "notes": ["G", "A", "Bb", "C", "D", "Eb", "F"],
+          "relative_major": "Bb",
+          "key_signature": "Bb, Eb",
+          "common_chord_progressions": ["i-iv-v-i", "i-VI-III-VII"],
+          "modes": {
+            "natural_minor": ["G", "A", "Bb", "C", "D", "Eb", "F"],
+            "harmonic_minor": ["G", "A", "Bb", "C", "D", "Eb", "F#"],
+            "melodic_minor": ["G", "A", "Bb", "C", "D", "E", "F#"]
+          },
+          "audio_sample": "link_to_audio_sample_G_minor",
+          "tonic": "G",
+          "dominant": "D",
+          "subdominant": "C"
+        },
+        {
+          "name": "C",
+          "sharps": 0,
+          "flats": 3,
+          "notes": ["C", "D", "Eb", "F", "G", "Ab", "Bb"],
+          "relative_major": "Eb",
+          "key_signature": "Bb, Eb, Ab",
+          "common_chord_progressions": ["i-iv-v-i", "i-VI-III-VII"],
+          "modes": {
+            "natural_minor": ["C", "D", "Eb", "F", "G", "Ab", "Bb"],
+            "harmonic_minor": ["C", "D", "Eb", "F", "G", "Ab", "B"],
+            "melodic_minor": ["C", "D", "Eb", "F", "G", "A", "B"]
+          },
+          "audio_sample": "link_to_audio_sample_C_minor",
+          "tonic": "C",
+          "dominant": "G",
+          "subdominant": "F"
+        },
+        {
+          "name": "F",
+          "sharps": 0,
+          "flats": 4,
+          "notes": ["F", "G", "Ab", "Bb", "C", "Db", "Eb"],
+          "relative_major": "Ab",
+          "key_signature": "Bb, Eb, Ab, Db",
+          "common_chord_progressions": ["i-iv-v-i", "i-VI-III-VII"],
+          "modes": {
+            "natural_minor": ["F", "G", "Ab", "Bb", "C", "Db", "Eb"],
+            "harmonic_minor": ["F", "G", "Ab", "Bb", "C", "Db", "E"],
+            "melodic_minor": ["F", "G", "Ab", "Bb", "C", "D", "E"]
+          },
+          "audio_sample": "link_to_audio_sample_F_minor",
+          "tonic": "F",
+          "dominant": "C",
+          "subdominant": "Bb"
+        },
+        {
+          "name": "Bb",
+          "sharps": 0,
+          "flats": 5,
+          "notes": ["Bb", "C", "Db", "Eb", "F", "Gb", "Ab"],
+          "relative_major": "Db",
+          "key_signature": "Bb, Eb, Ab, Db, Gb",
+          "common_chord_progressions": ["i-iv-v-i", "i-VI-III-VII"],
+          "modes": {
+            "natural_minor": ["Bb", "C", "Db", "Eb", "F", "Gb", "Ab"],
+            "harmonic_minor": ["Bb", "C", "Db", "Eb", "F", "Gb", "A"],
+            "melodic_minor": ["Bb", "C", "Db", "Eb", "F", "G", "A"]
+          },
+          "audio_sample": "link_to_audio_sample_Bb_minor",
+          "tonic": "Bb",
+          "dominant": "F",
+          "subdominant": "Eb"
+        },
+        {
+          "name": "Eb",
+          "sharps": 0,
+          "flats": 6,
+          "notes": ["Eb", "F", "Gb", "Ab", "Bb", "Cb", "Db"],
+          "relative_major": "Gb",
+          "key_signature": "Bb, Eb, Ab, Db, Gb, Cb",
+          "common_chord_progressions": ["i-iv-v-i", "i-VI-III-VII"],
+          "modes": {
+            "natural_minor": ["Eb", "F", "Gb", "Ab", "Bb", "Cb", "Db"],
+            "harmonic_minor": ["Eb", "F", "Gb", "Ab", "Bb", "Cb", "D"],
+            "melodic_minor": ["Eb", "F", "Gb", "Ab", "Bb", "C", "D"]
+          },
+          "audio_sample": "link_to_audio_sample_Eb_minor",
+          "tonic": "Eb",
+          "dominant": "Bb",
+          "subdominant": "Ab"
+        },
+        {
+          "name": "Ab",
+          "sharps": 0,
+          "flats": 7,
+          "notes": ["Ab", "Bb", "Cb", "Db", "Eb", "Fb", "Gb"],
+          "relative_major": "Cb",
+          "key_signature": "Bb, Eb, Ab, Db, Gb, Cb, Fb",
+          "common_chord_progressions": ["i-iv-v-i", "i-VI-III-VII"],
+          "modes": {
+            "natural_minor": ["Ab", "Bb", "Cb", "Db", "Eb", "Fb", "Gb"],
+            "harmonic_minor": ["Ab", "Bb", "Cb", "Db", "Eb", "Fb", "G"],
+            "melodic_minor": ["Ab", "Bb", "Cb", "Db", "Eb", "F", "G"]
+          },
+          "audio_sample": "link_to_audio_sample_Ab_minor",
+          "tonic": "Ab",
+          "dominant": "Eb",
+          "subdominant": "Db"
+        }
+      ]
+    }
+  }
+  
