@@ -1,36 +1,49 @@
-// Fetch the JSON data from the js folder and initialize the circle of fifths
-fetch('js/data.json')
-  .then(response => response.json())
-  .then(circleOfFifthsData => {
-    initializeCircleOfFifths(circleOfFifthsData);
-  })
-  .catch(error => console.error('Error fetching data:', error));
+// script.js
+document.addEventListener('DOMContentLoaded', () => {
+  const circleContainer = document.getElementById('circle-of-fifths');
+  const keyDetailsContainer = document.getElementById('key-details');
 
-function initializeCircleOfFifths(circleOfFifthsData) {
+  async function fetchData() {
+    const response = await fetch('js/data.json');
+    const data = await response.json();
+    return data.circle_of_fifths.major_keys;
+  }
 
-  function createKeyButton(key) {
-    const button = document.createElement('button');
-    button.classList.add('m-2', 'p-2', 'bg-blue-500', 'text-white', 'rounded');
-    button.innerText = key.name;
-    button.onclick = () => displayKeyDetails(key);
-    return button;
+  function createKeyElement(key, index) {
+    const keyElement = document.createElement('div');
+    keyElement.classList.add('key', 'absolute', 'flex', 'items-center', 'justify-center', 'bg-white', 'border', 'border-gray-700', 'rounded-full', 'cursor-pointer', 'transition-colors', 'hover:bg-gray-200', 'w-16', 'h-16');
+    keyElement.innerText = key.name;
+    const angle = (index / 12) * 360;
+    keyElement.style.transform = `rotate(${angle}deg) translate(125px) rotate(-${angle}deg)`;
+    keyElement.addEventListener('click', () => displayKeyDetails(key));
+    return keyElement;
   }
 
   function displayKeyDetails(key) {
-    document.getElementById('key-name').innerText = key.name;
-    document.getElementById('key-notes').innerText = `Notes: ${key.notes.join(', ')}`;
-    document.getElementById('key-signature').innerText = `Key Signature: ${key.key_signature}`;
-    document.getElementById('relative-minor').innerText = `Relative Minor: ${key.relative_minor}`;
-    document.getElementById('common-progressions').innerText = `Common Chord Progressions: ${key.common_chord_progressions.join(', ')}`;
-    document.getElementById('modes').innerText = `Modes: ${Object.entries(key.modes).map(([mode, notes]) => `${mode}: ${notes.join(', ')}`).join(' | ')}`;
-    document.getElementById('audio-sample').src = key.audio_sample;
+    keyDetailsContainer.innerHTML = `
+      <h2 class="text-2xl font-bold mb-4">${key.name} Major</h2>
+      <p><strong>Notes:</strong> ${key.notes.join(', ')}</p>
+      <p><strong>Relative Minor:</strong> ${key.relative_minor}</p>
+      <p><strong>Key Signature:</strong> ${key.key_signature}</p>
+      <p><strong>Common Chord Progressions:</strong> ${key.common_chord_progressions.join(', ')}</p>
+      <p><strong>Modes:</strong></p>
+      <ul class="list-disc list-inside">
+        ${Object.entries(key.modes).map(([mode, notes]) => `<li><strong>${mode}:</strong> ${notes.join(', ')}</li>`).join('')}
+      </ul>
+      <audio controls class="mt-4">
+        <source src="${key.audio_sample}" type="audio/mp3">
+        Your browser does not support the audio element.
+      </audio>
+    `;
   }
 
-  document.addEventListener('DOMContentLoaded', () => {
-    const majorKeysContainer = document.getElementById('circle-of-fifths');
-    console.log("majorKeysContainer: ");
-    circleOfFifthsData.major_keys.forEach(key => {
-      majorKeysContainer.appendChild(createKeyButton(key));
+  fetchData().then(majorKeys => {
+    majorKeys.forEach((key, index) => {
+      const keyElement = createKeyElement(key, index);
+      circleContainer.appendChild(keyElement);
     });
+
+    // Initially display details of the first key
+    displayKeyDetails(majorKeys[0]);
   });
-}
+});
